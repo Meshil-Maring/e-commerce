@@ -21,7 +21,7 @@ nav {
   align-items: center;
   gap: 10px;
   background-color: rgb(255, 255, 255);
-  padding: 0.8rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 0.8rem;
 }
 
@@ -62,10 +62,11 @@ button {
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2.4rem;
   align-items: center;
   padding: 0.5rem 1rem;
-  padding: 0.8rem 20%;
+  padding: 0.8rem;
 }
 
 button {
