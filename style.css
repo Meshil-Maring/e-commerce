@@ -85,6 +85,7 @@ button:hover {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
   background-color: #ebebeb;
+  z-index: -1;
 }
 
 .slider-conatiner {
@@ -94,10 +95,16 @@ button:hover {
   gap: 2rem;
   padding: 2rem;
   background-color: #ffffff;
-  clip-path: circle(30% at 50% 50%);
-}
-.slider-item {
   z-index: 1;
+}
+
+.slider-item img {
+  z-index: 2;
+  position: relative;
+}
+
+.slider-item {
+  z-index: 2;
 }
 
 .slider-text {
@@ -121,4 +128,16 @@ button:hover {
 }
 
 .buy-button {
+}
+
+.slider-bg {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
 }
