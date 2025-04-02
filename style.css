@@ -121,10 +121,17 @@ button:hover {
   text-align: center;
 }
 
-.slider-text p {
+.slider-item p {
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 1rem;
+  left: 5%;
+  color: green;
+  top: 20%;
+  position: absolute;
+  font-size: 3.2rem;
+  border: solid 1px #7a7a7a;
+  padding: 10px;
 }
 
 .buy-button {
