@@ -40,9 +40,6 @@ nav {
   border: none;
 }
 
-.search-icon {
-}
-
 .limited-offer {
   text-decoration: underline solid red 2px;
   color: white;
@@ -81,4 +78,47 @@ button:hover {
   border-radius: 0.5rem;
   cursor: pointer;
   background-color: #b80909;
+}
+
+/* Hero Seciton */
+.slider {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-color: #ebebeb;
+}
+
+.slider-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  clip-path: circle(30% at 50% 50%);
+}
+.slider-item {
+  z-index: 1;
+}
+
+.slider-text {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-weight: 800;
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: 2.5rem;
+}
+
+.slider-text h1 {
+  text-align: center;
+}
+
+.slider-text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.buy-button {
 }
