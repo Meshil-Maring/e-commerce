@@ -10,7 +10,7 @@ nav {
 }
 
 .nap-top {
-  padding: 20px 20px;
+  padding: 40px 40px 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,9 +83,11 @@ button:hover {
 /* Hero Seciton */
 .slider {
   display: flex;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-color: #d8b6b662;
 }
 
-.slider-conatiner {
+.slider-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -102,13 +104,43 @@ button:hover {
   position: relative;
 }
 
+.slider-item p {
+  font-size: 3.2rem;
+  font-weight: 200;
+  color: green;
+  border: solid 1px black;
+  padding: 0.4rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.slider-item h2 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  color: rgb(17, 17, 17);
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  max-width: 30rem;
+  text-align: center;
+}
+
 .slider-bg {
   position: absolute;
   width: 50rem;
   height: 50rem;
   border-radius: 100%;
   z-index: -1;
-  background-color: #000000;
+  background-color: #d8b6b6;
 }
-buy-button {
+
+.buy-button {
+  padding: 0.8rem;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 2rem;
 }
