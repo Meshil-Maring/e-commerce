@@ -82,69 +82,33 @@ button:hover {
 
 /* Hero Seciton */
 .slider {
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  background-color: #ebebeb;
-  z-index: -1;
+  display: flex;
 }
 
 .slider-conatiner {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #ffffff;
-  z-index: 1;
-}
-
-.slider-item img {
-  z-index: 2;
-  position: relative;
 }
 
 .slider-item {
-  z-index: 2;
-}
-
-.slider-text {
-  position: absolute;
-  top: 10%;
-  right: 10%;
-  font-weight: 800;
-  text-align: center;
-  white-space: pre-wrap;
-  font-size: 2.5rem;
-}
-
-.slider-text h1 {
-  text-align: center;
-}
-
-.slider-item p {
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin-top: 1rem;
-  left: 5%;
-  color: green;
-  top: 20%;
-  position: absolute;
-  font-size: 3.2rem;
-  border: solid 1px #7a7a7a;
-  padding: 10px;
-}
-
-.buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
 }
 
 .slider-bg {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 100%;
-  z-index: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: yellow;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 100%;
+  z-index: -1;
+  background-color: #000000;
+}
+buy-button {
 }
