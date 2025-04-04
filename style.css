@@ -145,3 +145,39 @@ button:hover {
   position: absolute;
   bottom: 2rem;
 }
+
+/* Features */
+.features-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 2rem;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  width: 10rem;
+}
+
+.feature-title {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.feature-description {
+  text-align: center;
+  color: #2e2e2e;
+  padding: 0rem;
+  margin: 0rem;
+}
