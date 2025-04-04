@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   margin: auto;
-  max-width: 120rem;
+  max-width: 140rem;
 }
 
 nav {
@@ -105,7 +105,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 120rem;
+  max-width: 140rem;
   width: 100vw;
   position: relative;
 }
@@ -126,8 +126,8 @@ button:hover {
   font-weight: 800;
   color: rgb(17, 17, 17);
   position: absolute;
-  top: 2rem;
-  right: 4rem;
+  top: 4vh;
+  right: 8%;
   max-width: 30rem;
   text-align: center;
 }
