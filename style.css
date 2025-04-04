@@ -84,7 +84,8 @@ button:hover {
 .slider {
   display: flex;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  background-color: #d8b6b662;
+  background-color: #ff4747;
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 .slider-container {
@@ -132,7 +133,7 @@ button:hover {
   height: 50rem;
   border-radius: 100%;
   z-index: -1;
-  background-color: #d8b6b6;
+  background-color: #a5abff;
 }
 
 .buy-button {
