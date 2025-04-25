@@ -1,93 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <title>E-Commerce Website</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
   </head>
   <body>
-    <nav class="nap-top">
-        <img src="./img/sneakers.png" class="logo"></img>  
-
-        <div class="search-container">
-            <input type="text" class="search-input" placeholder="Search...">
-            <img src="./img/search.png" width="20" height="20" class="search-icon"></img>
-        </div>
-
-        <a href="/limited-offer" class="limited-offer" >Limited-offer</a>
-    </nav>
-
-    <nav class="buttom-nav">
-        <ul class="nav-list">
-            <li><button><span>AIR FORCE</span></button></li>
-            <li><button>JORDAN</button></li>
-            <li><button>BLAZER</button></li>
-            <li><button>CRATER</button></li>
-            <li><button>HIPPIE</button></li>
-        </ul>
-    </nav>
-
-    <div class="slider">
-      <div class="slider-container">
-        <div class="slider-item">
-          <div class="slider-bg"></div>
-          <img src="./img/air.png" alt="Sneaker 1">
-          <div class="slider-text">
-            <h2>
-              AIR FORCE<br>
-              NEW SEASON
-            </h2>
-            <button class="buy-button">BUY NOW</button>
-            <p class="price">$119</p>
-          </div>
-        </div>
-
-        <div class="slider-item">
-          <div class="slider-bg"></div>
-          <img src="./img/air.png" alt="Sneaker 1">
-          <div class="slider-text">
-            <h2>
-              AIR FORCE<br>
-              NEW SEASON
-            </h2>
-            <button class="buy-button">BUY NOW</button>
-            <p class="price">$119</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--  -->
-    <div class="features-container">
-      <div class="feature">
-        <img src="./img/shipping.png" alt="Free Shipping" class="feature-icon" />
-        <h3 class="feature-title">FREE SHIPPING</h3>
-        <p class="feature-description">Free worldwide shipping on all orders.</p>
-      </div>
-
-      <div class="feature">
-        <img src="./img/return.png" alt="Free Shipping" class="feature-icon" />
-        <h3 class="feature-title">30 DAYS RETURN</h3>
-        <p class="feature-description">No question return and easy refund in 14 days.</p>
-      </div>
-
-      <div class="feature">
-        <img src="./img/gift.png" alt="Free Shipping" class="feature-icon" />
-        <h3 class="feature-title">GIFT CARDS</h3>
-        <p class="feature-description">Buy gift cards and use coupon codes easily.</p>
-      </div>
-
-      <div class="feature">
-        <img src="./img/contact.png" alt="Free Shipping" class="feature-icon" />
-        <h3 class="feature-title">CONTACT US</h3>
-        <p class="feature-description">Keep in touch via email and support system.</p>
-      </div>
-    </div>
-    
-    <script src="./script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
