@@ -1,7 +1,7 @@
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
+import reactRefresh, { configs } from 'eslint-plugin-react-refresh'
 
 export default [
   { ignores: ['dist'] },
@@ -31,3 +31,12 @@ export default [
     },
   },
 ]
+
+webpack(configs) {
+  configs.module.rules.push({
+    test: /\.svg$/,
+    use: [{loader: '@svgr/webpack', options: {icon: true}}],
+  })
+
+  return configs
+}
