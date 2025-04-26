@@ -1,6 +1,7 @@
 import React from "react";
-import Cart from "../shared/common/cart";
-import { MenuIcon } from "../../assets/icons/Icons.js";
+// import Cart from "../shared/common/cart";
+import MenuIcon from "../../assets/icons/MenuIcon";
+import SearchIcon from "../../assets/icons/SearchIcon";
 
 const Home = () => {
   return (
@@ -8,7 +9,10 @@ const Home = () => {
       className="text-red-700 flex
     justify-between p-4 w-full"
     >
-      <MenuIcon />
+      <button className="text-zinc-900 text-3xl">
+        <MenuIcon />
+        <SearchIcon />
+      </button>
 
       <div className="flex gap-2">
         <h2>Search</h2>
