@@ -1,7 +1,8 @@
 import React from "react";
 
-import LocationComponent from "./home/location-component";
 import HeaderComponent from "./home/header-compenent";
+import LocationComponent from "./home/location-component";
+import HeroComponent from "./home/hero-component";
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
 
       {/* Location component for mobile view */}
       <LocationComponent />
+
+      {/* Hero Section */}
+      <HeroComponent />
     </div>
   );
 };
