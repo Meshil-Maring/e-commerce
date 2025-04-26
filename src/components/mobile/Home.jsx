@@ -1,5 +1,5 @@
 import React from "react";
-// import Cart from "../shared/common/cart";
+import Cart from "../shared/common/cart";
 import MenuIcon from "../../assets/icons/MenuIcon";
 import SearchIcon from "../../assets/icons/SearchIcon";
 
@@ -10,13 +10,15 @@ const Home = () => {
     justify-between p-4 w-full"
     >
       <button className="text-zinc-900 text-3xl">
-        <MenuIcon />
-        <SearchIcon />
+        <MenuIcon size={28} />
       </button>
 
-      <div className="flex gap-2">
-        <h2>Search</h2>
-        <h3>Add to cart</h3>
+      <div className="flex gap-4">
+        <button className="text-zinc-900 text-3xl">
+          <SearchIcon size={28} />
+        </button>
+
+        <Cart size={28} />
       </div>
     </header>
   );
