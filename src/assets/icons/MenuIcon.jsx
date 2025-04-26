@@ -1,4 +1,4 @@
-const Icon = ({
+const MenuIcon = ({
   size = 24,
   fill = "none",
   stroke = "currentColor",
@@ -21,4 +21,4 @@ const Icon = ({
   </svg>
 );
 
-export default Icon;
+export default MenuIcon;
