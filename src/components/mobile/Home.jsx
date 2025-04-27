@@ -4,6 +4,7 @@ import HeaderComponent from "./home/header-compenent";
 import LocationComponent from "./home/location-component";
 import HeroComponent from "./home/hero-component";
 import CollectionSection from "./home/collection-setion";
+import BrandSection from "./home/brand-section";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
 
       {/* Collection Section*/}
       <CollectionSection />
+
+      {/* Brand Section */}
+      <BrandSection />
     </div>
   );
 };
