@@ -9,7 +9,7 @@ const BrandSection = () => {
   return (
     <div className="flex flex-col mt-8">
       <div className="flex p-4 justify-between items-center ">
-        <p>Select your Brand</p>
+        <p className="font-medium">Select your Brand</p>
         <ChevronRightIcon />
       </div>
 

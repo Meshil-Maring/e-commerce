@@ -5,6 +5,7 @@ import LocationComponent from "./home/location-component";
 import HeroComponent from "./home/hero-component";
 import CollectionSection from "./home/collection-setion";
 import BrandSection from "./home/brand-section";
+import ContinueShopping from "./home/Continue-shoping";
 
 const Home = () => {
   return (
@@ -23,6 +24,9 @@ const Home = () => {
 
       {/* Brand Section */}
       <BrandSection />
+
+      {/* Continue Shoping section */}
+      <ContinueShopping />
     </div>
   );
 };

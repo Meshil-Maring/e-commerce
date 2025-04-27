@@ -14,7 +14,7 @@ const CollectionSection = () => {
     <div className="grid grid-cols-4 justify-between gap-4 p-4 text-black mt-12">
       <Link
         to="/all-collections"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg col-span-2 flex items-center justify-center text-white text-md text-shadow-lg"
+        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg col-span-2 flex items-center justify-center text-white text-md text-shadow-lg "
         style={{
           backgroundImage: `url(${AllCollection})`,
           backgroundSize: "cover",
