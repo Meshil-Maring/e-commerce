@@ -1,9 +1,10 @@
 import React from "react";
 import HeroImage from "../../../assets/images/image1.png";
+import ChevronRightIcon from "../../../assets/icons/ChevronRight";
 
 const HeroComponent = () => {
   return (
-    <div className="w-11/12 m-auto mt-8">
+    <div className="w-11/12 m-auto mt-8 relative">
       <img src={HeroImage} alt="Hero" className="w-full h-auto" />
 
       <ul className="flex justify-center items-center mt-4 gap-3">
@@ -13,6 +14,10 @@ const HeroComponent = () => {
         <li className="flex w-[8px] h-[8px] bg-[#d8d8d8] rounded-full"></li>
         <li className="flex w-[8px] h-[8px] bg-[#d8d8d8] rounded-full"></li>
       </ul>
+
+      <button className="absolute bg-amber-50 rounded-full p-2 bottom-12 right-6 cursor-pointer">
+        <ChevronRightIcon fill="none" stroke="red" strokeWidth="1" />
+      </button>
     </div>
   );
 };
