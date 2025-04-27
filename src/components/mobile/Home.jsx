@@ -3,6 +3,7 @@ import React from "react";
 import HeaderComponent from "./home/header-compenent";
 import LocationComponent from "./home/location-component";
 import HeroComponent from "./home/hero-component";
+import CollectionSection from "./home/collection-setion";
 
 const Home = () => {
   return (
@@ -15,6 +16,9 @@ const Home = () => {
 
       {/* Hero Section */}
       <HeroComponent />
+
+      {/* Collection Section*/}
+      <CollectionSection />
     </div>
   );
 };
