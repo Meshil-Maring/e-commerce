@@ -6,6 +6,7 @@ import HeroComponent from "./home/hero-component";
 import CollectionSection from "./home/collection-setion";
 import BrandSection from "./home/brand-section";
 import ContinueShopping from "./home/Continue-shoping";
+import PriceSection from "./home/price-section";
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
 
       {/* Continue Shoping section */}
       <ContinueShopping />
+
+      {/* Price card */}
+      <PriceSection />
     </div>
   );
 };
