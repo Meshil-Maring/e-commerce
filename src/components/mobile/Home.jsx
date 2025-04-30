@@ -7,6 +7,8 @@ import CollectionSection from "./home/collection-setion";
 import BrandSection from "./home/brand-section";
 import ContinueShopping from "./home/Continue-shoping";
 import PriceSection from "./home/price-section";
+// import BestPickSarees from "./home/best-pick-sarees";
+import BestPickForYou from "./home/BestPickForYou";
 
 const Home = () => {
   return (
@@ -31,6 +33,11 @@ const Home = () => {
 
       {/* Price card */}
       <PriceSection />
+
+      {/* Best pick Sarees */}
+
+      {/* Best pick for you */}
+      <BestPickForYou />
     </div>
   );
 };
