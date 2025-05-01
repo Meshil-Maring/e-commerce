@@ -9,6 +9,7 @@ import ContinueShopping from "./home/Continue-shoping";
 import PriceSection from "./home/price-section";
 // import BestPickSarees from "./home/best-pick-sarees";
 import BestPickForYou from "./home/BestPickForYou";
+import FlashSale from "./home/FlashSale";
 
 const Home = () => {
   return (
@@ -38,6 +39,9 @@ const Home = () => {
 
       {/* Best pick for you */}
       <BestPickForYou />
+
+      {/* Flash Sale */}
+      <FlashSale />
     </div>
   );
 };
