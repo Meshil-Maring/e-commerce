@@ -2,7 +2,7 @@ const FlashSale = () => {
   return (
     <div>
       <div className="flex w-full justify-between items-center p-4 py-0 mt-8">
-        <h3>Flash Sale</h3>
+        <h3 className="text-2xl font-medium">Flash Sale</h3>
         <p className="flex gap-2 justify-center items-center text-[var(--text-secondary)]">
           Closing in:
           <span className="p-2 px-4 rounded-md text-white bg-[#bdbdbd]">
