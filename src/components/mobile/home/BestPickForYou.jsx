@@ -62,6 +62,7 @@ const BestPickForYou = () => {
         </li>
       </ul>
     </div>
+    
   );
 };
 
