@@ -12,7 +12,7 @@ const PriceSection = () => {
     <div>
       <ul
         style={{ scrollbarWidth: "none" }}
-        className="flex gap-2 overflow-x-auto scrollbar-none m-4 mt-8"
+        className="flex gap-4 overflow-x-auto scrollbar-none m-4 mt-8"
       >
         <PriceCart props={priceData} />
       </ul>
