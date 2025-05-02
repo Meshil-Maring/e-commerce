@@ -4,6 +4,7 @@ const ContinueCart = ({ props }) => {
   return props.map((items) => {
     return (
       <li
+        key={items.id}
         className="w-[120px] h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between"
         style={{ backgroundImage: `url(${items.image})` }}
       >

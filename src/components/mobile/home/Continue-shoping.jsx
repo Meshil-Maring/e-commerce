@@ -37,7 +37,10 @@ const ContinueShopping = () => {
       <p className="p-4 font-medium">Continue Shopping</p>
 
       <div>
-        <ul className=" grid grid-flow-col gap-6 p-4 overflow-x-auto">
+        <ul
+          style={{ scrollbarWidth: "none" }}
+          className=" grid grid-flow-col gap-6 p-4 overflow-x-auto"
+        >
           <ContinueCart props={continueCartData} />
         </ul>
       </div>
