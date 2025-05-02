@@ -14,7 +14,7 @@ const CollectionSection = () => {
     <div className="grid grid-cols-4 justify-between gap-4 p-4 text-black mt-12">
       <Link
         to="/all-collections"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg col-span-2 flex items-center justify-center text-white text-md text-shadow-lg "
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg col-span-2 flex items-center justify-center text-white text-md text-shadow-lg "
         style={{
           backgroundImage: `url(${AllCollection})`,
           backgroundSize: "cover",
@@ -25,7 +25,7 @@ const CollectionSection = () => {
 
       <Link
         to="/shoes"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
         style={{
           backgroundImage: `url(${Shoes})`,
           backgroundSize: "cover",
@@ -36,7 +36,7 @@ const CollectionSection = () => {
 
       <Link
         to="/socks"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
         style={{
           backgroundImage: `url(${Socks})`,
           backgroundSize: "cover",
@@ -47,7 +47,7 @@ const CollectionSection = () => {
 
       <Link
         to="/all-collections"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
         style={{
           backgroundImage: `url(${SunGlass})`,
           backgroundSize: "cover",
@@ -58,7 +58,7 @@ const CollectionSection = () => {
 
       <Link
         to="/t-shirt"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
         style={{
           backgroundImage: `url(${TShirt})`,
           backgroundSize: "cover",
@@ -69,7 +69,7 @@ const CollectionSection = () => {
 
       <Link
         to="/t-shirt"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-md text-shadow-lg"
         style={{
           backgroundImage: `url(${ShortPants})`,
           backgroundSize: "cover",
@@ -80,7 +80,7 @@ const CollectionSection = () => {
 
       <Link
         to="/t-shirt"
-        className="bg-cover bg-no-repeat bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white text-xl"
+        className="bg-no-repeat text-sm bg-center h-[76px] w-full rounded-lg  flex items-center justify-center text-white "
         style={{
           backgroundImage: `url(${Pants})`,
           backgroundSize: "cover",
