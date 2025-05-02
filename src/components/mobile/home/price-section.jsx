@@ -1,30 +1,20 @@
+import PriceCart from "../../shared/common/price-cart";
+
 const PriceSection = () => {
+  const priceData = [
+    { id: "1", title: "Under", price: 299 },
+    { id: "2", title: "Under", price: 799 },
+    { id: "3", title: "Under", price: 999 },
+    { id: "4", title: "Above", price: 1599 },
+  ];
+
   return (
     <div>
-      <ul className="flex gap-2 overflow-x-auto m-4 mt-8">
-        <li className="p-8 rounded-2xl flex gap-1 justify-center items-center flex-col border-6 border-[#7979794f] w-fit">
-          <p>Under</p>
-          <p className="font-bold text-2xl text-center">₹99</p>
-          <p>Only</p>
-        </li>
-
-        <li className="p-8 rounded-2xl flex gap-1 justify-center items-center flex-col border-6 border-[#7979794f] w-fit">
-          <p>Under</p>
-          <p className="font-bold text-2xl text-center">₹299</p>
-          <p>Only</p>
-        </li>
-
-        <li className="p-8 rounded-2xl flex gap-1 justify-center items-center flex-col border-6 border-[#7979794f] w-fit">
-          <p>Under</p>
-          <p className="font-bold text-2xl text-center">₹799</p>
-          <p>Only</p>
-        </li>
-
-        <li className="p-8 rounded-2xl flex gap-1 justify-center items-center flex-col border-6 border-[#7979794f] w-fit">
-          <p>Above</p>
-          <p className="font-bold text-2xl text-center">₹999</p>
-          <p>Only</p>
-        </li>
+      <ul
+        style={{ scrollbarWidth: "none" }}
+        className="flex gap-2 overflow-x-auto scrollbar-none m-4 mt-8"
+      >
+        <PriceCart props={priceData} />
       </ul>
     </div>
   );
