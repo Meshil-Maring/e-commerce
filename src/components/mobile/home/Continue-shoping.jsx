@@ -2,7 +2,34 @@ import React from "react";
 import Hat from "../../../assets/images/hat.png";
 import ShortPants from "../../../assets/images/t-shirt2.png";
 import TShirt from "../../../assets/images/t-shirt3.png";
-import HeartIcon from "../../../assets/icons/HeartIcon.jsx";
+import ContinueCart from "../../shared/common/continue-cart.jsx";
+
+const continueCartData = [
+  {
+    id: 1,
+    image: Hat,
+    title: "Glitchez",
+    subtitle: "Hat",
+    oldPrice: "₹599",
+    price: "₹449",
+  },
+  {
+    id: 2,
+    image: ShortPants,
+    title: "Froxy",
+    subtitle: "T-Shirt",
+    oldPrice: "₹799",
+    price: "₹659",
+  },
+  {
+    id: 3,
+    image: TShirt,
+    title: "Stitch",
+    subtitle: "T-Shirt",
+    oldPrice: "₹1699",
+    price: "₹1299",
+  },
+];
 
 const ContinueShopping = () => {
   return (
@@ -10,78 +37,8 @@ const ContinueShopping = () => {
       <p className="p-4 font-medium">Continue Shopping</p>
 
       <div>
-        <ul className="flex gap-6 p-4 overflow-x-auto">
-          <li
-            className="w-fit h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between"
-            style={{ backgroundImage: `url(${Hat})` }}
-          >
-            <div className="mt-auto w-full bg-gradient-to-t from-black/60 to-white/0 p-2 rounded-xl">
-              <div className="flex justify-between items-center text-white">
-                <p className="text-[13px]">Glitchez</p>
-                <HeartIcon size={18} />
-              </div>
-              <p className="text-white text-[12px]">Hat</p>
-
-              <div className="flex gap-4 text-white">
-                <del>₹599</del>
-                <p>₹449</p>
-              </div>
-            </div>
-          </li>
-
-          <li
-            className="w-[140px] h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between "
-            style={{ backgroundImage: `url(${ShortPants})` }}
-          >
-            <div className="mt-auto w-full bg-gradient-to-t from-black/60 to-white/0 p-2 rounded-xl">
-              <div className="flex justify-between items-center text-white">
-                <p className="text-xl">Glitchez</p>
-                <HeartIcon size={18} />
-              </div>
-              <p className="text-white">T-shirt</p>
-
-              <div className="flex gap-4 text-white">
-                <del>₹1399</del>
-                <p>₹1199</p>
-              </div>
-            </div>
-          </li>
-
-          <li
-            className="w-[140px] h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between "
-            style={{ backgroundImage: `url(${ShortPants})` }}
-          >
-            <div className="mt-auto w-full bg-gradient-to-t from-black/60 to-white/0 p-2 rounded-xl">
-              <div className="flex justify-between items-center text-white">
-                <p className="text-xl">Glitchez</p>
-                <HeartIcon size={18} />
-              </div>
-              <p className="text-white">T-shirt</p>
-
-              <div className="flex gap-4 text-white">
-                <del>₹1399</del>
-                <p>₹1199</p>
-              </div>
-            </div>
-          </li>
-
-          <li
-            className="w-[140px] h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between "
-            style={{ backgroundImage: `url(${TShirt})` }}
-          >
-            <div className="mt-auto w-full bg-gradient-to-t from-black/60 to-white/0 p-2 rounded-xl">
-              <div className="flex justify-between items-center text-white">
-                <p className="text-xl">Boycorst</p>
-                <HeartIcon size={18} />
-              </div>
-              <p className="text-white">T-shirt</p>
-
-              <div className="flex gap-4 text-white">
-                <del>₹1399</del>
-                <p>₹1199</p>
-              </div>
-            </div>
-          </li>
+        <ul className=" grid grid-flow-col gap-6 p-4 overflow-x-auto">
+          <ContinueCart props={continueCartData} />
         </ul>
       </div>
     </div>
