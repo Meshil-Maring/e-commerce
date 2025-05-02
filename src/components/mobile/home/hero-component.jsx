@@ -8,14 +8,14 @@ const HeroComponent = () => {
       <img src={HeroImage} alt="Hero" className="w-full h-auto" />
 
       <ul className="flex justify-center items-center mt-4 gap-3">
-        <li className="flex w-[36px] h-[8px] bg-[#1d1d1d] rounded-full"></li>
-        <li className="flex w-[8px] h-[8px] bg-[#d8d8d8] rounded-full"></li>
-        <li className="flex w-[8px] h-[8px] bg-[#d8d8d8] rounded-full"></li>
-        <li className="flex w-[8px] h-[8px] bg-[#d8d8d8] rounded-full"></li>
-        <li className="flex w-[8px] h-[8px] bg-[#d8d8d8] rounded-full"></li>
+        <li className="flex w-[36px] h-[7px] bg-[#1d1d1d] rounded-full"></li>
+        <li className="flex w-[7px] h-[7px] bg-[#d8d8d8] rounded-full"></li>
+        <li className="flex w-[7px] h-[7px] bg-[#d8d8d8] rounded-full"></li>
+        <li className="flex w-[7px] h-[7px] bg-[#d8d8d8] rounded-full"></li>
+        <li className="flex w-[7px] h-[7px] bg-[#d8d8d8] rounded-full"></li>
       </ul>
 
-      <button className="absolute bg-amber-50 rounded-full p-2 bottom-12 right-6 cursor-pointer">
+      <button className="absolute bg-amber-50 rounded-full p-2 bottom-10 right-5 cursor-pointer">
         <ChevronRightIcon fill="none" stroke="red" strokeWidth="1" />
       </button>
     </div>

@@ -7,25 +7,23 @@ import ChevronRightIcon from "../../../assets/icons/ChevronRight.jsx";
 
 const BrandSection = () => {
   return (
-    <div className="flex flex-col mt-8">
-      <div className="flex p-4 justify-between items-center ">
+    <div className="grid grid-cols-3 mt-8 p-4 gap-2">
+      <div className="col-span-3 flex justify-between items-center mb-4">
         <p className="font-medium">Select your Brand</p>
         <ChevronRightIcon />
       </div>
 
-      <div className="flex justify-between p-4">
-        <Link>
-          <img src={NikeLogo} />
-        </Link>
+      <Link>
+        <img src={NikeLogo} />
+      </Link>
 
-        <Link>
-          <img src={PumaLogo} />
-        </Link>
+      <Link>
+        <img src={PumaLogo} />
+      </Link>
 
-        <Link>
-          <img src={HandMLogo} />
-        </Link>
-      </div>
+      <Link>
+        <img src={HandMLogo} />
+      </Link>
     </div>
   );
 };

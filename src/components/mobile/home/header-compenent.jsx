@@ -8,7 +8,7 @@ const HeaderComponent = () => {
   return (
     <header
       className="text-red-700 flex
-    justify-between p-5 w-full bg-[var(--bg-surface)]"
+    justify-between p-3 w-full bg-[var(--bg-surface)]"
     >
       <button className="text-zinc-900 text-3xl">
         <MenuIcon size={28} />

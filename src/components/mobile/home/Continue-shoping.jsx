@@ -12,15 +12,15 @@ const ContinueShopping = () => {
       <div>
         <ul className="flex gap-6 p-4 overflow-x-auto">
           <li
-            className="w-[140px] h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between"
+            className="w-fit h-[180px] bg-cover bg-no-repeat bg-center rounded-xl flex justify-between"
             style={{ backgroundImage: `url(${Hat})` }}
           >
             <div className="mt-auto w-full bg-gradient-to-t from-black/60 to-white/0 p-2 rounded-xl">
               <div className="flex justify-between items-center text-white">
-                <p className="text-xl">Glitchez</p>
+                <p className="text-[13px]">Glitchez</p>
                 <HeartIcon size={18} />
               </div>
-              <p className="text-white">Hat</p>
+              <p className="text-white text-[12px]">Hat</p>
 
               <div className="flex gap-4 text-white">
                 <del>₹599</del>
