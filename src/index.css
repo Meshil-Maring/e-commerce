@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --text-color: #1f2937;
-  --bg-surface: #ffffff;
-  --bg-primary: #f9fafb;
-  --bg-active: #9333ea;
+  --text: #090c11;
+  --white: #ffffff;
+  --primary: #ffd300;
+  --secondary: #757b81;
+
+  --white-100: #e6e6e6;
+  --white-200: #cccccc;
+  --white-300: #bfbfbf;
+  --white-400: #999999;
+  --white-500: #737373;
+  --white-600: #595959;
 }
