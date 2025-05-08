@@ -25,7 +25,7 @@ const SignUp = () => {
             <input
               type="email"
               placeholder="Email"
-              className="w-full h-full focus:outline-none text-[var(text)]"
+              className="text-sm w-full h-full focus:outline-none text-[var(text)]"
             />
           </aside>
 
@@ -34,18 +34,25 @@ const SignUp = () => {
             <input
               type="email"
               placeholder="Password"
-              className="w-full h-full focus:outline-none text-[var(text)]"
+              className="text-sm w-full h-full focus:outline-none text-[var(text)]"
             />
             <EyeOpen stroke="var(--white-500)" />
           </aside>
           <button className="text-[12px] text-right">Forget Password?</button>
-          <button type="submit">Log in</button>
+          <button
+            type="submit"
+            className="bg-[var(--text)] text-white p-3 rounded-xl text-sm"
+          >
+            Log in
+          </button>
         </form>
 
         <div>
-          <div className="flex items-center">
+          <div className="flex items-center p-2">
             <div className="h-[2px] w-full bg-[var(--white-200)]"></div>
-            <p className="w-full text-center">or log-in with</p>
+            <p className="w-full text-center text-[var(--white-400)]">
+              or log-in with
+            </p>
             <div className="h-[2px] w-full bg-[var(--white-200)]"></div>
           </div>
 
