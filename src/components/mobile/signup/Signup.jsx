@@ -2,6 +2,9 @@ import Back from "../../../assets/icons/Back";
 import MailIcon from "../../../assets/icons/mail";
 import KeyIcon from "../../../assets/icons/key";
 import EyeOpen from "../../../assets/icons/EyeOpen";
+import Google from "../../../assets/images/logos/google.png";
+import Facebook from "../../../assets/images/logos/facebook.png";
+import Apple from "../../../assets/images/logos/apple.png";
 
 const SignUp = () => {
   return (
@@ -41,36 +44,41 @@ const SignUp = () => {
           <button className="text-[12px] text-right">Forget Password?</button>
           <button
             type="submit"
-            className="bg-[var(--text)] text-white p-3 rounded-xl text-sm"
+            className="bg-[var(--text)] text-white p-3 rounded-xl text-sm mt-4"
           >
             Log in
           </button>
         </form>
 
-        <div>
+        <div className="mt-4">
           <div className="flex items-center p-2">
             <div className="h-[2px] w-full bg-[var(--white-200)]"></div>
             <p className="w-full text-center text-[var(--white-400)]">
-              or log-in with
+              or log in with
             </p>
             <div className="h-[2px] w-full bg-[var(--white-200)]"></div>
           </div>
 
-          <div>
-            <button>
-              <svg></svg>
-              <p>Log in with Google</p>
+          <div className="flex flex-col gap-2 p-4 justify-center items-center">
+            <button className="flex items-center justify-center gap-2 border-[2px] border-[var(--white-200)] rounded-xl h-12 w-full p-2">
+              <img src={Google} alt="Google" className="w-6 h-6" />
+              <p className="w-full text-sm">Log in with Google</p>
             </button>
 
-            <button>
-              <svg></svg>
-              <p>Log in with Facebook</p>
+            <button className="flex items-center justify-center gap-2 border-[2px] border-[var(--white-200)] rounded-xl h-12 w-full p-2">
+              <img src={Facebook} alt="Google" className="w-6 h-6" />
+              <p className="w-full text-sm">Log in with Google</p>
             </button>
 
-            <button>
-              <svg></svg>
-              <p>Log in with Apple</p>
+            <button className="flex items-center justify-center gap-2 border-[2px] border-[var(--white-200)] rounded-xl h-12 w-full p-2">
+              <img src={Apple} alt="Google" className="w-6 h-6" />
+              <p className="w-full text-sm">Log in with Google</p>
             </button>
+
+            <p className="text-[var(--white-400)] mt-4 text-sm">
+              Don't have an accout?{" "}
+              <button className="text-[var(--text)] font-bold">Sign Up</button>
+            </p>
           </div>
         </div>
       </div>
