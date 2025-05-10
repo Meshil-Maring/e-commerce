@@ -6,6 +6,7 @@ import MailIcon from "../assets/icons/mail";
 import KeyIcon from "../assets/icons/key";
 import Person from "../assets/icons/person";
 import EyeOpen from "../assets/icons/EyeOpen";
+import EyeCloseIcon from "../assets/icons/EyeClose";
 import Google from "../assets/images/logos/google.png";
 import Facebook from "../assets/images/logos/facebook.png";
 import Apple from "../assets/images/logos/apple.png";
@@ -74,22 +75,36 @@ const AuthPage = () => {
             <aside className="bg-[var(--white-100)] h-11 rounded-xl flex items-center px-2 gap-4">
               <KeyIcon stroke="var(--white-500)" size={30} />
               <input
-                type="password"
+                type={hidePassword ? "password" : "text"}
                 placeholder="Password"
                 className="text-sm w-full h-full focus:outline-none text-[var(text)]"
               />
-              <EyeOpen stroke="var(--white-500)" />
+              {/* TODO: */}
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  setHidePassword(!hidePassword);
+                }}
+              >
+                {hidePassword ? (
+                  <EyeCloseIcon
+                    onClick={(e) => console.log("Hello world!")}
+                    stroke="var(--white-500)"
+                  />
+                ) : (
+                  <EyeOpen stroke="var(--white-500)" />
+                )}
+              </button>
             </aside>
 
             {type == authType.signup && (
               <aside className="bg-[var(--white-100)] h-11 rounded-xl flex items-center px-2 gap-4">
                 <KeyIcon stroke="var(--white-500)" size={30} />
                 <input
-                  type="password"
+                  type={hidePassword ? "password" : "text"}
                   placeholder="Comfirm Password"
                   className="text-sm w-full h-full focus:outline-none text-[var(text)]"
                 />
-                <EyeOpen stroke="var(--white-500)" />
               </aside>
             )}
             {type == authType.login && (
