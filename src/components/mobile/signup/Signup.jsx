@@ -16,7 +16,7 @@ const SignUp = () => {
 
       <div className="p-4 flex flex-col gap-2">
         <h2 className="text-xl font-bold text-[var(--text)]">Sign up</h2>
-        <p className="text-sm font-semibold">
+        <p className="text-sm font-meduim">
           Sign up creates an account with your email and password. It lets you
           access personalized features securely.
         </p>
