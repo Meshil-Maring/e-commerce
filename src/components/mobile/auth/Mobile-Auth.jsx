@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Back from "../../../assets/icons/Back";
 import MailIcon from "../../../assets/icons/mail";
 import KeyIcon from "../../../assets/icons/key";
@@ -7,7 +9,7 @@ import Google from "../../../assets/images/logos/google.png";
 import Facebook from "../../../assets/images/logos/facebook.png";
 import Apple from "../../../assets/images/logos/apple.png";
 
-const SignUp = () => {
+const AuthPage = () => {
   return (
     <section className="flex flex-col justify-between h-[90%] bg-[var(--primary)]">
       <aside className="p-4">
@@ -74,7 +76,7 @@ const SignUp = () => {
           <div className="flex items-center p-2">
             <div className="h-[2px] w-full bg-[var(--white-200)]"></div>
             <p className="w-full text-sm text-center text-[var(--white-400)]">
-              or Sign-up with
+              or
             </p>
             <div className="h-[2px] w-full bg-[var(--white-200)]"></div>
           </div>
@@ -94,7 +96,7 @@ const SignUp = () => {
 
             <button className="flex items-center justify-center gap-2 border-[2px] border-[var(--white-200)] rounded-xl h-11 w-full p-2">
               <img src={Apple} alt="Google" className="w-6 h-6" />
-              <p className="w-full text-sm">Sign up with Apple</p>
+              <p className="w-full text-sm">Apple</p>
             </button>
 
             <p className="text-[var(--white-400)] mt-4 text-sm">
@@ -110,4 +112,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default AuthPage;
