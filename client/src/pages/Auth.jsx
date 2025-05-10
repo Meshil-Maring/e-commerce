@@ -16,6 +16,8 @@ const authType = {
 };
 
 const AuthPage = () => {
+  const [hidePassword, setHidePassword] = useState(true);
+
   const type = useParams().type;
 
   if (type != "log-in" && type != "sign-up") {
