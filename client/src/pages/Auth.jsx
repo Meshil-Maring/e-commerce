@@ -87,12 +87,9 @@ const AuthPage = () => {
                 }}
               >
                 {hidePassword ? (
-                  <EyeCloseIcon
-                    onClick={(e) => console.log("Hello world!")}
-                    stroke="var(--white-500)"
-                  />
+                  <p className="text-sm p-1">Show</p>
                 ) : (
-                  <EyeOpen stroke="var(--white-500)" />
+                  <p className="text-sm">Hide</p>
                 )}
               </button>
             </aside>
@@ -154,9 +151,12 @@ const AuthPage = () => {
 
               <p className="text-[var(--white-400)] mt-4 text-sm">
                 {type == authType.login ? "Don't" : "Do"} have an accout?
-                <button className="ml-2 text-[var(--text)] font-bold">
+                <Link
+                  to={type == authType.login ? "/auth/sign-up" : "/auth/log-in"}
+                  className="ml-2 text-[var(--text)] font-bold"
+                >
                   {type == authType.login ? "Sign up" : "Log in"}
-                </button>
+                </Link>
               </p>
             </div>
           </div>
