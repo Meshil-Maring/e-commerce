@@ -103,9 +103,12 @@ const AuthPage = () => {
           <form className="p-4 flex flex-col gap-3 mt-4">
             {type == authType.signup && (
               <div className="flex flex-col gap-1">
-                <aside className="bg-[var(--white-100)] h-11 rounded-xl flex items-center px-2 gap-4">
+                <aside
+                  className={`bg-[var(--white-100)] h-11 rounded-xl flex items-center px-2 gap-4} ${
+                    authErr.userName.err ? "border-1 border-red-600" : ""
+                  }`}
+                >
                   <Person stroke="var(--white-500)" />
-
                   <input
                     onChange={changeAuthData}
                     name="userName"
