@@ -19,7 +19,7 @@ const authType = {
 const AuthPage = () => {
   const [hidePassword, setHidePassword] = useState(true);
 
-  // TODO: Auth Erro useState();
+  //  Auth Erro useState();
   const [authErr, setAuthErr] = useState({
     userName: {
       err: false,
@@ -53,7 +53,6 @@ const AuthPage = () => {
   };
 
   // handler the submitted form
-  // TODO:
   const submitHandler = (e) => {
     e.preventDefault();
 
@@ -161,7 +160,7 @@ const AuthPage = () => {
               </button>
             )}
 
-            {/* TODO: Submit the form */}
+            {/* Submit the form */}
             <button
               onClick={submitHandler}
               type="submit"
