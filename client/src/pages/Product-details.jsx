@@ -1,7 +1,8 @@
 import Header from "../components/shared/header";
 import ImagePreview from "../components/mobile/product-details/Image-preview";
-import Rating from "../components/mobile/product-details/Rating";
 import SliderNav from "../components/shared/slider-nav";
+import TitleRating from "../components/mobile/product-details/Title-rating";
+import ProductVariants from "../components/mobile/product-details/Product-Variants";
 
 const ProductDetails = () => {
   return (
@@ -9,10 +10,8 @@ const ProductDetails = () => {
       <Header />
       <ImagePreview />
       <SliderNav />
-      <div className="m-4 flex justify-between">
-        <h1 className="uppercase text-lg font-bold"> surf CUZ</h1>
-        <Rating />
-      </div>
+      <TitleRating />
+      <ProductVariants />
     </>
   );
 };
