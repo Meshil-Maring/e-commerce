@@ -1,6 +1,6 @@
-import SurfCuz from "../assets/images/surf-cuz.png";
-import ShareIcon from "../assets/icons/share";
-import HeartIcon from "../assets/icons/HeartIcon";
+import SurfCuz from "../../../assets/images/surf-cuz.png";
+import ShareIcon from "../../../assets/icons/share";
+import HeartIcon from "../../../assets/icons/HeartIcon";
 
 const ImagePreview = () => {
   return (
