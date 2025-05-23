@@ -1,4 +1,4 @@
-import PriceCart from "../../shared/common/price-cart";
+import PriceCart from "../../shared/price-cart";
 
 const PriceSection = () => {
   const priceData = [

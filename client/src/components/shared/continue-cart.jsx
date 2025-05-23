@@ -1,4 +1,4 @@
-import HeartIcon from "../../../assets/icons/HeartIcon.jsx";
+import HeartIcon from "../../assets/icons/HeartIcon.jsx";
 
 const ContinueCart = ({ props }) => {
   return props.map((items) => {

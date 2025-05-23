@@ -1,7 +1,7 @@
 import React from "react";
 import HeartIcon from "../../../assets/icons/HeartIcon";
 import Jean from "../../../assets/images/others/jeans.jpg";
-import BestPickCart from "../../shared/common/best-pick-cart";
+import BestPickCart from "../../shared/best-pick-cart";
 
 const bestPickData = [
   {

@@ -1,4 +1,4 @@
-import HeartIcon from "../../../assets/icons/HeartIcon";
+import HeartIcon from "../../assets/icons/HeartIcon";
 
 const BestPickCart = ({ props }) => {
   return props.map((items) => {

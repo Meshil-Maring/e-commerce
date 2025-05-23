@@ -1,6 +1,6 @@
 import React from "react";
 
-import Cart from "../../shared/common/cart";
+import Cart from "../../shared/cart";
 import MenuIcon from "../../../assets/icons/MenuIcon";
 import SearchIcon from "../../../assets/icons/SearchIcon";
 

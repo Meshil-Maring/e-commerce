@@ -2,7 +2,7 @@ import React from "react";
 import Hat from "../../../assets/images/hat.png";
 import ShortPants from "../../../assets/images/t-shirt2.png";
 import TShirt from "../../../assets/images/t-shirt3.png";
-import ContinueCart from "../../shared/common/continue-cart.jsx";
+import ContinueCart from "../../shared/continue-cart.jsx";
 
 const continueCartData = [
   {

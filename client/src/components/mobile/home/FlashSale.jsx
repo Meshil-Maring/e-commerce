@@ -40,6 +40,10 @@ const FlashSale = () => {
           Men
         </li>
       </ul>
+
+      <section>
+        
+      </section>
     </div>
   );
 };
