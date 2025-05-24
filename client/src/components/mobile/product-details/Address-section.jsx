@@ -2,7 +2,7 @@ import Location from "../../../assets/icons/LocationIcon";
 
 const AddressSection = () => {
   return (
-    <div className="flex gap-2 border-2 m-4 rounded-lg justify-between items-center p-2">
+    <div className="flex gap-2 border-2 m-4 mt-1 rounded-lg justify-between items-center p-2">
       {/* <Location size={48} /> */}
       <p className="text-sm">
         Deliver to
