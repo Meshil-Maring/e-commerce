@@ -10,7 +10,8 @@ const ProductVariants = () => {
           className="w-16 h-16 border-2 rounded-2xl border-[var(--white-300)]"
           src={SurPink}
           alt="Surf cuz pink color variants"
-        />
+        ></img>
+
         <p className="text-sm font-bold">
           <sm className="text-red-600">-5%</sm> ₹879
         </p>
