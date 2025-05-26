@@ -1,6 +1,6 @@
 const DeliverySection = () => {
   return (
-    <div className="flex justify-between items-center mx-4 mt-6">
+    <div className="flex justify-between items-center mx-4 mt-4">
       <aside className="flex gap-1">
         <p className="text-sm underline">Free delivery</p>
         <b className="text-sm">Monday, 26 May.</b>

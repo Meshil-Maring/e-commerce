@@ -6,19 +6,29 @@ import ProductVariants from "../components/mobile/product-details/Product-Varian
 import SizeSelector from "../components/mobile/product-details/Size-seclector";
 import DeliverySection from "../components/mobile/product-details/Delivery-section";
 import AddressSection from "../components/mobile/product-details/Address-section";
+import OrderSummary from "../components/mobile/product-details/Order-Summary";
 
 const ProductDetails = () => {
   return (
-    <>
-      <Header />
-      <ImagePreview />
-      <SliderNav />
-      <TitleRating />
-      <ProductVariants />
-      <SizeSelector />
-      <DeliverySection />
-      <AddressSection />
-    </>
+    <section className="bg-[var(--white-200)] flex gap-2 flex-col">
+      <div className="bg-white pb-2 rounded-b-2xl">
+        <Header />
+        <ImagePreview />
+        <SliderNav />
+        <TitleRating />
+        <ProductVariants />
+        <SizeSelector />
+      </div>
+
+      <div className="bg-white py-2 rounded-2xl">
+        <DeliverySection />
+        <AddressSection />
+      </div>
+
+      <div className="bg-white py-2 rounded-2xl">
+        <OrderSummary />
+      </div>
+    </section>
   );
 };
 
