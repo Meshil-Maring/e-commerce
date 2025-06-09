@@ -9,7 +9,7 @@ const AddressSection = () => {
         <strong> Quest Group of Institutions Boys Hostel, 12202, Punjab</strong>
       </p>
 
-      <button className="text-lg bg-[var(--text)] text-white p-2 rounded-lg px-3">
+      <button className="text-lg bg-[var(--text)] text-white p-1 rounded-lg px-3">
         Change
       </button>
     </div>

@@ -7,6 +7,7 @@ import SizeSelector from "../components/mobile/product-details/Size-seclector";
 import DeliverySection from "../components/mobile/product-details/Delivery-section";
 import AddressSection from "../components/mobile/product-details/Address-section";
 import OrderSummary from "../components/mobile/product-details/Order-Summary";
+import ProductDetailDisciption from "../components/mobile/product-details/ProductDetailDisciption.jsx";
 
 const ProductDetails = () => {
   return (
@@ -27,6 +28,10 @@ const ProductDetails = () => {
 
       <div className="bg-white py-2 rounded-2xl">
         <OrderSummary />
+      </div>
+
+      <div className="bg-white py-2 rounded-2xl">
+        <ProductDetailDisciption />
       </div>
     </section>
   );
