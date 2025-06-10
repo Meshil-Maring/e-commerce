@@ -8,6 +8,8 @@ import DeliverySection from "../components/mobile/product-details/Delivery-secti
 import AddressSection from "../components/mobile/product-details/Address-section";
 import OrderSummary from "../components/mobile/product-details/Order-Summary";
 import ProductDetailDisciption from "../components/mobile/product-details/ProductDetailDisciption.jsx";
+import ProuductReview from "../components/mobile/product-details/Product-review.jsx";
+import ProductReview from "../components/mobile/product-details/Product-review.jsx";
 
 const ProductDetails = () => {
   return (
@@ -32,6 +34,10 @@ const ProductDetails = () => {
 
       <div className="bg-white py-2 rounded-2xl">
         <ProductDetailDisciption />
+      </div>
+
+      <div className="bg-white py-2 rounded-2xl">
+        <ProductReview />
       </div>
     </section>
   );
