@@ -5,7 +5,7 @@ const ProductDetailDisciption = () => {
 
       <div className="grid grid-cols-2 gap-2 mt-4">
         <div className="bg-[var(--white-100)] p-2 rounded-xl">
-          <p className="text-lg font-bold">Material composition</p>
+          <p className="text-lg font-bold">Material</p>
           <p className="text-lg text-zinc-500">100% Polyester</p>
         </div>
 
@@ -26,28 +26,29 @@ const ProductDetailDisciption = () => {
       </div>
 
       <div className="flex gap-4 flex-col mt-8">
-        <div className="flex gap-2">
-          <div className="h-auto items-center justify-center bg-[var(--primary)] w-6 min-w-[8px] rounded-r-full"></div>
-          <p className="text-lg">
-            <b>STYLE DETAIL:</b> Women's classic blouse tailored in a regular
-            fit. It features high round neck with a tie detail neckline.
-          </p>
-        </div>
-
         <div className=" gap-2 flex">
-          <div className="h-auto items-center justify-center bg-[var(--primary)] w-6 min-w-[8px] rounded-r-full"></div>
-          <p className="text-lg">
-            <b>Pattern Sytle:</b> Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Cupiditate quas velit deserunt dolor dolores
-            impedit inventore, eligendi veniam esse nisi!
+          <div className="h-auto items-center justify-center bg-[var(--primary)] w-6 max-w-[8px] rounded-r-full"></div>
+          <p className="text-lg w-full">
+            <b>Meterial:</b> Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Atque, quis.
           </p>
         </div>
 
         <div className=" gap-2 flex">
           <div className="h-auto items-center justify-center bg-[var(--primary)] w-6 max-w-[8px] rounded-r-full"></div>
-          <p className="text-lg">
+          <p className="text-lg w-full">
             <b>Fit Type:</b> Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Atque, quis.
+          </p>
+        </div>
+
+        <div className=" gap-2 flex">
+          <div className="h-auto items-center justify-center bg-[var(--primary)] w-6 max-w-[8px] rounded-r-full"></div>
+          <p className="text-lg w-full">
+            <b>Collar:</b> Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Odio incidunt expedita facere voluptatum explicabo quisquam
+            magnam debitis, molestias excepturi voluptatem iusto facilis
+            perspiciatis enim veritatis, harum fuga impedit nisi ea.
           </p>
         </div>
       </div>
