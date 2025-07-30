@@ -2,6 +2,7 @@ import StartIcon from "../../../assets/icons/Star";
 import RatingRate from "../../shared/RatingRate";
 import Satisfication from "../../shared/Satisfication";
 import Comment from "../../shared/Comment";
+import ButtonWithNumber from "../../shared/ButtonWithNumber";
 
 const ProductReview = () => {
   return (
@@ -28,29 +29,13 @@ const ProductReview = () => {
         {/* Rating */}
         <div className="w-full px-4 flex flex-col justify-center items-start">
           <div className="mb-2 flex gap-4">
-            <p className="text-xl border-2 w-fit px-2 rounded-[4px] border-[var(--white-200)] relative">
-              Videos
-              <p className="text-[10px] absolute top-[-10px] right-[-10px] bg-[var(--primary)] rounded-4xl  w-[20px] h-[20px] p-1 text-center">
-                20
-              </p>
-            </p>
-
-            <p className="text-xl border-2 w-fit px-2 rounded-[4px] border-[var(--white-200)] relative">
-              Photos
-              <p className="text-[10px] absolute top-[-10px] right-[-10px] bg-[var(--primary)] rounded-4xl  w-[20px] h-[20px] p-1 text-center">
-                8
-              </p>
-            </p>
-
-            <p className="text-xl border-2 w-fit px-2 rounded-[4px] border-[var(--white-200)] relative">
-              Comments
-              <p className="text-[10px] absolute top-[-10px] right-[-10px] bg-[var(--primary)] rounded-4xl  w-[20px] h-[20px] p-1 text-center">
-                42
-              </p>
-            </p>
+            <ButtonWithNumber title={"Images"} number={20} />
+            <ButtonWithNumber title={"Videos"} number={8} />
+            <ButtonWithNumber title={"Comments"} number={210} />
           </div>
 
-          <div>
+          {/* Rating in Percentage */}
+          <div className="mt-2">
             <RatingRate star={5} percentage={75} />
             <RatingRate star={4} percentage={15} />
             <RatingRate star={3} percentage={5} />

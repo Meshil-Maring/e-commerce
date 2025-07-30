@@ -9,7 +9,7 @@ const Comment = ({ name, rating }) => (
   <div className="mt-8">
     <div className="flex">
       <img
-        className="w-10 h-10 object-cover rounded-full inline-block"
+        className="w-10 h-10 object-cover rounded-[999px] bg-amber-200 inline-block"
         src={person1}
         alt="person"
       />
