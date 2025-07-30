@@ -7,17 +7,18 @@ import Dislike from "../../assets/icons/Dislike";
 
 const Comment = ({ name, rating }) => (
   <div className="mt-8">
-    <div className="flex">
+    {/* User */}
+    <div className="flex justify-start">
       <img
         className="w-10 h-10 object-cover rounded-[999px] bg-amber-200 inline-block"
         src={person1}
         alt="person"
       />
 
-      <div className="ml-4 grid grid-cols-1 justify-center items-start w-full">
+      <div className="ml-4 grid grid-cols-1 justify-center items-start">
         <p className=" text-xl font-bold">{name}</p>
 
-        <aside className="flex items-center justify-start w-full">
+        <aside className="flex items-center justify-start">
           <Star fill="var(--primary)" size={18} stroke="var(--primary)"></Star>
           <Star fill="var(--primary)" size={18} stroke="var(--primary)"></Star>
           <Star fill="var(--primary)" size={18} stroke="var(--primary)"></Star>
