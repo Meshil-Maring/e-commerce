@@ -1,6 +1,7 @@
 import StartIcon from "../../../assets/icons/Star";
 import RatingRate from "../../shared/RatingRate";
 import Satisfication from "../../shared/Satisfication";
+import Comment from "../../shared/Comment";
 
 const ProductReview = () => {
   return (
@@ -64,6 +65,11 @@ const ProductReview = () => {
             <Satisfication satis={true} title={"Reuseable"} />
             <Satisfication satis={false} title={"Fit"} />
             <Satisfication satis={false} title={"Color"} />
+          </div>
+
+          {/* Photos and comment */}
+          <div>
+            <Comment name={"Sarah Mitchell"} />
           </div>
         </div>
       </div>

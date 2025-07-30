@@ -5,15 +5,15 @@ const Satisfication = ({ satis, title }) => (
   <div className="flex  gap-2 items-center">
     {satis ? (
       <div className="bg-[var(--primary)] rounded-full p-1">
-        <Tick size={20} />
+        <Tick size={16} />
       </div>
     ) : (
       <div className="bg-[var(--red)] rounded-full p-1">
-        <Cross size={20} />
+        <Cross size={16} />
       </div>
     )}
 
-    <p className="text-2xl">{title}</p>
+    <p className="text-xl">{title}</p>
   </div>
 );
 
