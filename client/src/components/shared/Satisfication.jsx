@@ -1,0 +1,20 @@
+import Tick from "../../assets/icons/Tick";
+import Cross from "../../assets/icons/Cross";
+
+const Satisfication = ({ satis, title }) => (
+  <div className="flex  gap-2 items-center">
+    {satis ? (
+      <div className="bg-[var(--primary)] rounded-full p-1">
+        <Tick size={20} />
+      </div>
+    ) : (
+      <div className="bg-[var(--red)] rounded-full p-1">
+        <Cross size={20} />
+      </div>
+    )}
+
+    <p className="text-2xl">{title}</p>
+  </div>
+);
+
+export default Satisfication;

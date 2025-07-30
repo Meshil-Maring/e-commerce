@@ -1,5 +1,6 @@
 import StartIcon from "../../../assets/icons/Star";
 import RatingRate from "../../shared/RatingRate";
+import Satisfication from "../../shared/Satisfication";
 
 const ProductReview = () => {
   return (
@@ -48,11 +49,22 @@ const ProductReview = () => {
             </p>
           </div>
 
-          <RatingRate star={5} percentage={75} />
-          <RatingRate star={4} percentage={15} />
-          <RatingRate star={3} percentage={5} />
-          <RatingRate star={2} percentage={3} />
-          <RatingRate star={1} percentage={2} />
+          <div>
+            <RatingRate star={5} percentage={75} />
+            <RatingRate star={4} percentage={15} />
+            <RatingRate star={3} percentage={5} />
+            <RatingRate star={2} percentage={3} />
+            <RatingRate star={1} percentage={2} />
+          </div>
+
+          {/* Satisfication */}
+          <div className="flex items-center justify-start gap-2 flex-wrap mt-5">
+            <Satisfication satis={true} title={"Design"} />
+            <Satisfication satis={true} title={"Quality"} />
+            <Satisfication satis={true} title={"Reuseable"} />
+            <Satisfication satis={false} title={"Fit"} />
+            <Satisfication satis={false} title={"Color"} />
+          </div>
         </div>
       </div>
     </>
